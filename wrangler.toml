@@ -19,3 +19,4 @@ database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
 [vars]
 NODE_ENV = "production"
 BUILD_TARGET = "cloudflare"
+NEXT_PUBLIC_STORAGE_TYPE = "upstash"
