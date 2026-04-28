@@ -17,7 +17,7 @@ import {
 export const runtime = 'nodejs';
 
 async function assertAdmin(request: NextRequest) {
-  const storageType = process.env.NEXT_PUBLIC_STORAGE_TYPE || 'localstorage';
+  const storageType = process.env.NEXT_PUBLIC_STORAGE_TYPE || 'upstash';
   if (storageType === 'localstorage') {
     throw new Error('不支持本地存储进行管理员配置');
   }
