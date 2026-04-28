@@ -18,7 +18,7 @@ const STORAGE_TYPE =
     | 'kvrocks'
     | 'd1'
     | 'postgres'
-    | undefined) || 'localstorage';
+    | undefined) || 'upstash';
 
 // 创建存储实例
 function createStorage(): IStorage {
